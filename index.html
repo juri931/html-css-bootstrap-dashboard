@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.css' integrity='sha512-r0fo0kMK8myZfuKWk9b6yY8azUnHCPhgNz/uWDl2rtMdWJlk7gmd9socvGZdZzICwAkMgfTkVrplDahQ07Gi0A==' crossorigin='anonymous'/>
     <!-- Icons -->
@@ -17,11 +18,12 @@
 </head>
 <body>
 
-    <header class="bg-light">
+    <header class="bg-light align-items-center">
 
-        <div>
+        <!--  Navbar -->
+        <div class="my_nav">
 
-            <ul class="list-unstyled d-flex justify-content-between py-3 mx-3">
+            <ul class="list-unstyled d-flex justify-content-between py-3 mx-1 my-0">
                 <li>
                     <img src="img/logo.svg" alt="logo">
                 </li>
@@ -41,10 +43,51 @@
             </ul>
 
         </div>
+        <!-- /Navbar -->
         
     </header>
 
-    <main></main>
+    <main>
+        <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 100px; height: 100vh;">
+            <div class="row">
+                <div class="col m-2">
+                    Prova
+                </div>
+            </div>
+        </div>
+        <!-- Top Banner -->
+        <div class="row">
+            <section id="topBanner" class="col d-flex bg-primary text-white align-items-center">
+                <div class="container-fluid flex-column text-left align-content-center">
+                    <div>
+                        <h3>Boolean<span class="badge"><p>Piano blaze</p></span></h3>
+                    </div>
+                    <div class="badge">3 app</div>
+                </div>
+                <div class="col-4">centrale</div>
+                <div class="col-2">destra</div>
+            </section>
+        </div>
+
+        <!--  Main Content -->
+        <div class="container-fluid p-4">
+            <h1 class="text-center mb-4">Dashboard</h1>
+            <div class="row">
+                <!-- Cards go here -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="card-title">Prossime classi</h5>
+                        </div>
+                        <div class="card-body">
+                            <!-- List of classes go here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
     
     <footer></footer>
 </body>
