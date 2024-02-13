@@ -51,15 +51,24 @@
         <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="height: 100vh;">
             <div class="row">
                 <div class="col m-2">
-                    <a class="text-decoration-none text-white"><i class="fa-solid fa-house mx-2"></i>Home</a><br>
-                    <a class="text-decoration-none text-white">Stats</a><br>
-                    <a class="text-decoration-none text-white">Signals</a>
+                    <a class="text-decoration-none text-white">
+                        <i class="fa-solid fa-house mx-2"></i>
+                        <span>Home</span>
+                    </a><br>
+                    <a class="text-decoration-none text-white">
+                        <i class="fa-solid fa-chart-simple mx-2"></i>
+                        <span>Stats</span>
+                    </a><br>
+                    <a class="text-decoration-none text-white"><i class="fa-solid fa-signal mx-2"></i>
+                        <span>Signals</span>
+                    </a>
                 </div>
             </div>
         </div>
+        
         <!-- Top Banner -->
-        <div class="row">
-            <section id="topBanner" class="col d-flex bg-primary text-white align-items-center">
+        <div class="top-banner row">
+            <section id="top-banner" class="col d-flex bg-primary text-white align-items-center">
                 <div class="container-fluid flex-column text-left align-content-center p-2 my-2">
                     <div>
                         <h3 class="m-0">Boolean <span class="badge-pill">Piano blaze</span></h3>
@@ -90,14 +99,121 @@
         <div class="main p-4">
 
             <div class="row">
-                <!-- Cards go here -->
-                <div class="col-lg-4 col-md-6 mb-4">
+                <!-- Cards -->
+                <div class="prossime-classi col">
                     <div class="card h-100">
                         <div class="card-header">
                             <h5 class="card-title">Prossime classi</h5>
                         </div>
                         <div class="card-body">
-                            <!-- List of classes go here -->
+                            
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Nome</th>
+                                        <th scope="col">Data Inizio</th>
+                                        <th scope="col">ROI</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 75</th>
+                                        <td>15 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td><div class="badge-pill bg-success text-white">Done</div></td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 76</th>
+                                        <td>16 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>
+                                            <div class="badge-pill bg-success text-white">Done</div>
+                                        </td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 77</th>
+                                        <td>17 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>
+                                            <div class="badge-pill bg-warning text-white">Process</div>
+                                        </td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 78</th>
+                                        <td>18 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>
+                                            <div class="badge-pill bg-success text-white">Done</div>
+                                        </td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 79</th>
+                                        <td>19 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>
+                                            <div class="badge-pill bg-danger text-white">Failed</div>
+                                        </td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 80</th>
+                                        <td>20 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>
+                                            <div class="badge-pill bg-success text-white">Done</div>
+                                        </td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 81</th>
+                                        <td>21 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>
+                                            <div class="badge-pill bg-danger text-white">Failed</div>
+                                        </td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><i class="code fa-solid fa-code"></i> Classe 82</th>
+                                        <td>22 Feb 2021</td>
+                                        <td>20%</td>
+                                        <td>
+                                            <div class="badge-pill bg-success text-white">Done</div>
+                                        </td>
+                                        <td>
+                                            <a href=""><i class="pencil fa-solid fa-pencil"></i></a>
+                                            <a href=""><i class="trash fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

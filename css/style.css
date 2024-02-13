@@ -5,18 +5,31 @@ body{
 header{
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 main{
     padding-top: 65px;
 }
 
+.top-banner{
+    padding-left: 150px;
+}
+
 #sidebar{
     background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
     height: calc(100% - 64px); /* Subtract header height */
     width: fit-content;
     float: left;
     padding: 25px;
+    position: fixed;
+}
+
+#sidebar i{
+    width:  20px;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 .badge-pill{
@@ -29,5 +42,24 @@ main{
 }
 
 .main{
-    padding-left: 100px;
+    margin-left: 130px;
+}
+
+.card{
+    width: fit-content;
+}
+
+.code{
+    background-color: rgb(242, 101, 81);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+
+.pencil, 
+.trash{
+    color: gray;
+    padding: 6px;
+    border: 2px solid gray;
+    border-radius: 4px;
 }
