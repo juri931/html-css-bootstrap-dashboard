@@ -48,30 +48,47 @@
     </header>
 
     <main>
-        <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 100px; height: 100vh;">
+        <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="height: 100vh;">
             <div class="row">
                 <div class="col m-2">
-                    Prova
+                    <a class="text-decoration-none text-white"><i class="fa-solid fa-house mx-2"></i>Home</a><br>
+                    <a class="text-decoration-none text-white">Stats</a><br>
+                    <a class="text-decoration-none text-white">Signals</a>
                 </div>
             </div>
         </div>
         <!-- Top Banner -->
         <div class="row">
             <section id="topBanner" class="col d-flex bg-primary text-white align-items-center">
-                <div class="container-fluid flex-column text-left align-content-center">
+                <div class="container-fluid flex-column text-left align-content-center p-2 my-2">
                     <div>
-                        <h3>Boolean<span class="badge"><p>Piano blaze</p></span></h3>
+                        <h3 class="m-0">Boolean <span class="badge-pill">Piano blaze</span></h3>
                     </div>
-                    <div class="badge">3 app</div>
+                    <div class="d-inline-flex align-items-center">
+                        <div class="badge-pill">3 app</div>
+                        <span><i class="fa-solid fa-angles-right"></i></span>
+                        <div class="badge-pill">Boolean mobile app</div>
+                        <div class="badge-pill">Boolean web app</div>
+                        <div class="badge-pill">Boolean blog app</div>
+                    </div>
                 </div>
-                <div class="col-4">centrale</div>
-                <div class="col-2">destra</div>
+                
+                <div class="col-4">
+                    <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                    <h2 class="m-0">125</h2>
+                </div>
+                
+                <div class="col-2">
+                    <span class="">Nuovo studente</span>
+                    <span><i class="fa-regular fa-square-plus"></i></span>
+                </div>
             </section>
         </div>
+        <!-- /Top Banner -->
 
         <!--  Main Content -->
-        <div class="container-fluid p-4">
-            <h1 class="text-center mb-4">Dashboard</h1>
+        <div class="main p-4">
+
             <div class="row">
                 <!-- Cards go here -->
                 <div class="col-lg-4 col-md-6 mb-4">
