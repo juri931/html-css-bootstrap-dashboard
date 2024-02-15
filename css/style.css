@@ -43,6 +43,7 @@ main{
 
 .main{
     margin-left: 130px;
+    background-color: rgb(248, 249, 250);
 }
 
 .card{
@@ -68,6 +69,7 @@ main{
     border-radius: 4px;
 }
 
+/* Todo */
 .todo{
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -80,4 +82,15 @@ main{
 
 .todo span{
     font-weight: 500;
+}
+
+/* Graph */
+.graph{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.graph li{
+    border-top: 1px solid lightgray;
 }
