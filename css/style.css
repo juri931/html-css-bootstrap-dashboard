@@ -57,8 +57,13 @@ main{
     border-radius: 50%;
 }
 
+.prossime-classi{
+    font-size: .8rem;
+}
+
 .prossime-classi td{
     text-align: center;
+    width: 100px;
 }
 
 .pencil, 
