@@ -93,17 +93,18 @@
         <!-- /Top Banner -->
 
         <!--  Main Content -->
-        <div class="main p-4">
+        <div class="main p-4 d-flex">
 
-            <div class="row-cols-2 ">
+            <!-- Left column -->
+            <div class="d-flex flex-column left-col col-8">
                 <!-- Cards -->
-                <div class="prossime-classi col-8">
+                <div class="prossime-classi">
                     <div class="card h-100 w-100">
                         <div class="card-header">
                             <h5 class="card-title">Prossime classi</h5>
                         </div>
+                        
                         <div class="card-body">
-                            
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -215,7 +216,8 @@
                     </div>
                 </div>
                 
-                <div class="faq col-8 my-3">
+                <!-- faq -->
+                <div class="faq col-8 my-3 w-100">
                     <div class="card h-100 w-100">
                         <div class="card-header">
                             <h5 class="card-title">F.A.Q.</h5>
@@ -268,6 +270,65 @@
                                     </td>
                                 </tr>
                             </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /faq -->
+
+            <!-- Right column -->
+            <div class="d-flex flex-column col-4">
+                
+                <!-- Todo -->
+                <div class="card mb-3 w-100">
+                    <div class="card w-100">
+                        <div class="card-header">
+                            <h5 class="card-title">Todo</h5>
+                        </div>
+                    
+                        <div class="card-body">
+                            <ul class="list-unstyled todo">
+                                <li class="border-bottom">
+                                    <input type="checkbox" class="ms-2">
+                                    <span>Kickoff nuove classi</span>
+                                </li>
+                                <li class="border-bottom">
+                                    <input type="checkbox" class="ms-2">
+                                    <span>Lezione su Bootstrap 5 in classe #75</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" class="ms-2">
+                                    <span>Controllare username github studenti</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /todo -->
+
+                <!-- Graph -->
+                <div class="card mb-3 w-100">
+                    <div class="card w-100">
+                        <div class="card-header bg-white pb-0 border-0">
+                            <img src="img/stats.jpeg" alt="" class="w-100">
+                            <span>
+                                <h6>Utenti attivi</h6>
+                                <p style="font-size: .7rem; font-weight: 600; border-bottom: 1px solid lightgray;">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                            </span>
+                        </div>
+                
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li class="border-bottom">
+                                    <span>Gennaio: 1200</span>
+                                </li>
+                                <li class="border-bottom">
+                                    <span>Febbraio: 800</span>
+                                </li>
+                                <li>
+                                    <span>Marzo: 1500</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
