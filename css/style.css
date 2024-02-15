@@ -9,7 +9,7 @@ header{
 }
 
 main{
-    padding-top: 65px;
+    padding-top: 60px;
 }
 
 .top-banner{
@@ -56,10 +56,28 @@ main{
     border-radius: 50%;
 }
 
+.prossime-classi td{
+    text-align: center;
+}
+
 .pencil, 
 .trash{
     color: gray;
     padding: 6px;
     border: 2px solid gray;
     border-radius: 4px;
+}
+
+.todo{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.todo li{
+    margin: 5px 0;
+}
+
+.todo span{
+    font-weight: 500;
 }
