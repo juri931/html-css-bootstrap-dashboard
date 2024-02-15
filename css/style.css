@@ -10,6 +10,8 @@ header{
 
 main{
     padding-top: 60px;
+    background-color: rgb(248, 249, 250);
+    height: 100vh;
 }
 
 .top-banner{
@@ -43,7 +45,6 @@ main{
 
 .main{
     margin-left: 130px;
-    background-color: rgb(248, 249, 250);
 }
 
 .card{
@@ -59,11 +60,21 @@ main{
 
 .prossime-classi{
     font-size: .8rem;
+    font-weight: 600;
 }
 
-.prossime-classi td{
+.prossime-classi td, .prossime-classi th{
     text-align: center;
-    width: 100px;
+    width: 85px;
+}
+
+.prossime-classi th:first-child{
+    width: auto;
+    text-align: left;
+}
+
+.badge-pill{
+    margin: 0 auto;
 }
 
 .pencil, 
@@ -72,6 +83,11 @@ main{
     padding: 6px;
     border: 2px solid gray;
     border-radius: 4px;
+}
+
+/* FAQ */
+.faq td{
+    font-size: .7rem;
 }
 
 /* Todo */
@@ -87,6 +103,7 @@ main{
 
 .todo span{
     font-weight: 500;
+    font-size: small;
 }
 
 /* Graph */
@@ -98,4 +115,8 @@ main{
 
 .graph li{
     border-top: 1px solid lightgray;
+}
+
+.graph li span{
+    font-size: small;
 }

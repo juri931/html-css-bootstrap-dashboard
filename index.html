@@ -33,31 +33,36 @@
                 </li>
 
                 <li>
-                    <a href="#"><i class="fa-solid fa-bars mx-2 text-secondary"></i></a>
-                    <a href="#"><i class="fa-solid fa-circle-question mx-2 text-secondary"></i></a>
-                    <a href="#"><i class="fa-solid fa-ellipsis-vertical mx-2 text-secondary"></i></a>
+                    <a href="#" class="d-none d-md-inline"><i class="fa-solid fa-bars mx-2 text-secondary"></i></a>
+                    <a href="#" class="d-none d-md-inline"><i class="fa-solid fa-circle-question mx-2 text-secondary"></i></a>
+                    <a href="#" class="d-none d-md-inline"><i class="fa-solid fa-ellipsis-vertical mx-2 text-secondary"></i></a>
                     <a href="#"><i class="fa-solid fa-bell mx-2 text-warning"></i></a>
                 </li>
             </ul>
         </div>
         <!-- /Navbar -->
-        
     </header>
 
-    <main class="d-flex flex-column h-screen overflow-hidden">
+    <!-- Main -->
+    <main class="d-flex flex-column h-screen overflow-auto">
         <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="height: 100vh;">
-            <div class="row">
-                <div class="col m-2">
+            <div class="row flex-column h-100 justify-content-between">
+                <div class="col-11 m-2">
                     <a class="text-decoration-none text-white">
                         <i class="fa-solid fa-house mx-2"></i>
-                        <span>Home</span>
+                        <span class="d-none d-md-inline">Home</span>
                     </a><br>
                     <a class="text-decoration-none text-white">
                         <i class="fa-solid fa-chart-simple mx-2"></i>
-                        <span>Stats</span>
+                        <span class="d-none d-md-inline">Stats</span>
                     </a><br>
                     <a class="text-decoration-none text-white"><i class="fa-solid fa-signal mx-2"></i>
-                        <span>Signals</span>
+                        <span class="d-none d-md-inline">Signals</span>
+                    </a>
+                </div>
+                <div class="col-0 admin mb-5">
+                    <a class="text-decoration-none text-white"><i class="fa-solid fa-gear mx-2"></i>
+                        <span class="d-none d-md-inline">Admin</span>
                     </a>
                 </div>
             </div>
@@ -85,15 +90,15 @@
                 </div>
                 
                 <div class="col-2">
-                    <span class="">Nuovo studente</span>
-                    <span><i class="fa-regular fa-square-plus"></i></span>
+                    <span>Nuovo studente</span>
+                    <span><a href="" style="font-size: 1.5rem;"><i class="fa-regular fa-square-plus text-white"></i></a></span>
                 </div>
             </section>
         </div>
         <!-- /Top Banner -->
 
         <!--  Main Content -->
-        <div class="main p-4 d-flex">
+        <div class="main p-4 d-flex flex-sm-wrap flex-md-nowrap">
 
             <!-- Left column -->
             <div class="d-flex flex-column left-col col-8">
@@ -226,7 +231,7 @@
                         <div class="row card-body d-flex justify-content-between">
                             <table>
                                 <tr class="border-bottom">
-                                    <td class="fw-bold">Qual è il costo del corso?</td>
+                                    <td class="fw-bold ps-3">Come aggiungere un nuovo studente?</td>
                                     <td class="text-center">
                                         <div class="dropdown">
                                             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
@@ -241,7 +246,7 @@
                                     </td>
                                 </tr>
                                 <tr class="border-bottom">
-                                    <td class="fw-bold">Come posso accedere alle informazioni del mio acount</td>
+                                    <td class="fw-bold ps-3">Come posso accedere alle informazioni del mio acount?</td>
                                     <td class="text-center">
                                         <div class="dropdown">
                                             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
@@ -256,7 +261,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="fw-bold">Posso usare questa dashboard da mobile?</td>
+                                    <td class="fw-bold ps-3">Posso usare questa dashboard da mobile?</td>
                                     <td class="text-center">
                                         <div class="dropdown">
                                             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -310,7 +315,7 @@
                 <div class="card mb-3">
                     <div class="graph card">
                         <div class="card-header bg-white pb-0 border-0">
-                            <img src="img/stats.jpeg" alt="" class="w-100">
+                            <img src="img/stats.jpeg" alt="" class="w-100 pb-3">
                             <span>
                                 <h6>Utenti attivi</h6>
                                 <p style="font-size: .7rem; font-weight: 600;">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
@@ -320,16 +325,16 @@
                         <div class="card-body p-0">
                             <ul class="list-unstyled m-0">
                                 <li class="p-1">
-                                    <span class="ms-2">Gennaio: 1200</span>
+                                    <span class="ms-2 fw-medium">Gennaio: 1200</span>
                                 </li>
                                 <li class="p-1">
-                                    <span class="ms-2">Febbraio: 800</span>
+                                    <span class="ms-2 fw-medium">Febbraio: 800</span>
                                 </li>
                                 <li class="p-1">
-                                    <span class="ms-2">Marzo: 1500</span>
+                                    <span class="ms-2 fw-medium">Marzo: 1500</span>
                                 </li>
-                                <li class="p-2 m-1">
-                                    <span><a style="font-size: small;" href="">Visualizza report approfondito</a></span>
+                                <li class="p-2">
+                                    <span class="m-1"><a style="font-size: small; color: rgb(77, 127, 254)" href="">Visualizza report approfondito</a></span>
                                 </li>
                             </ul>
                         </div>
